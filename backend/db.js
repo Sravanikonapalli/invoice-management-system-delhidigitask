@@ -13,7 +13,7 @@ app.use(cors({
 app.use(bodyParser.json());
 
 
-mongoose.connect("mongodb://localhost:27017/project", {
+mongoose.connect("mongodb+srv://konapallisravani:Srav123@cluster2.9nyhm.mongodb.net/", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
